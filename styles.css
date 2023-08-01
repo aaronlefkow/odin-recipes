@@ -1,0 +1,27 @@
+/* Color Palette: https://coolors.co/palette/ccd5ae-e9edc9-fefae0-faedcd-d4a373 */
+
+
+body {
+    background-color: #FEFAE0;
+}
+
+h1 {
+    background-color: #CCD5AE;
+}
+
+h3 {
+    background-color: #D4A373;
+    color: white;
+    text-indent: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.recipe-list {
+    font-size: 22px;
+}
+
+ol,
+ul {
+    background: #FAEDCD;
+}
