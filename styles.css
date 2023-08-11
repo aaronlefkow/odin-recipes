@@ -1,5 +1,8 @@
 /* Color Palette: https://coolors.co/palette/ccd5ae-e9edc9-fefae0-faedcd-d4a373 */
 
+* {
+    box-sizing: border-box;
+}
 
 body {
     background-color: #FEFAE0;
@@ -7,6 +10,8 @@ body {
 
 h1 {
     background-color: #CCD5AE;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -19,9 +24,30 @@ h3 {
 
 .recipe-list {
     font-size: 22px;
+    margin: 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-ol,
-ul {
+.ingredients,
+.steps {
+    margin-bottom: 0px;
+}
+
+.ingredients-list,
+.steps-list {
     background: #FAEDCD;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+li {
+    margin-bottom: 7px;
+}
+
+.gallery {
+    width: auto;
+    height: 150px;
+    margin-top: 2px;
 }
