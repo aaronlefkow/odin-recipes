@@ -35,6 +35,10 @@ h3 {
     /* border: 2px solid green; */
 }
 
+.recipe-list li {
+    list-style: none;
+}
+
 .recipe-item {
     /* border: 2px solid red; */
     text-align: center;
