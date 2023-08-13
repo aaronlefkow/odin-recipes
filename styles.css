@@ -27,6 +27,23 @@ h3 {
     margin: 10px 0px;
     padding-top: 10px;
     padding-bottom: 10px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    /* border: 2px solid green; */
+}
+
+.recipe-item {
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.gallery {
+    width: auto;
+    height: 150px;
+    margin-top: 2px;
 }
 
 .ingredients,
@@ -44,10 +61,4 @@ h3 {
 
 li {
     margin-bottom: 7px;
-}
-
-.gallery {
-    width: auto;
-    height: 150px;
-    margin-top: 2px;
 }
