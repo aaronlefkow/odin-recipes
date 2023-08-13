@@ -23,27 +23,37 @@ h3 {
 }
 
 .recipe-list {
-    font-size: 22px;
-    margin: 10px 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border: 2px solid green;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
-    /* border: 2px solid green; */
+    font-size: 24px;
+    margin: 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    gap: 2rem;
 }
 
 .recipe-item {
-    /* border: 2px solid red; */
+    border: 2px solid red;
     text-align: center;
+    width: 300px;
+    height: 250px;
+}
+
+.recipe-name {
+    border: 2px solid orange;
+
 }
 
 .gallery {
-    width: auto;
-    height: 150px;
+    border: 2px solid blue;
     margin-top: 2px;
+    margin-top: 10px;
+    height: 200px;
+    width: auto;
 }
 
 .ingredients,
