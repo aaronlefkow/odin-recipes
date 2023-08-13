@@ -23,7 +23,7 @@ h3 {
 }
 
 .recipe-list {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -34,26 +34,27 @@ h3 {
     padding-bottom: 10px;
     padding-left: 0;
     gap: 2rem;
-}
+    }
 
 .recipe-item {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     text-align: center;
-    width: 300px;
+    max-width: 300px;
     height: 250px;
 }
 
 .recipe-name {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
+    font-size: 1em;
 
 }
 
-.gallery {
+.recipe-image {
     border: 2px solid blue;
     margin-top: 2px;
     margin-top: 10px;
-    height: 200px;
-    width: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .ingredients,
